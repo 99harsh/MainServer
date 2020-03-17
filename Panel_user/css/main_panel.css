@@ -1,0 +1,138 @@
+*{
+	margin:0px;
+	padding:0px;
+}
+
+.section-2-heading p{
+	color:white;
+	padding:8px;	
+}
+.cnt-fl{
+	background-color:#293a4a;
+}
+.cnt-fl .logo{
+	width:100%;
+	padding:8px;
+}
+.cnt-fl .logo img{
+	padding:8px;
+	width:40%;
+}
+.cnt-fl .navigation-bar{
+	float:right;
+	font-size:18px;	
+}
+.navigation-bar .right-side{
+	width:100%;
+	margin-top:1.6em;
+	margin-right:8em;
+}
+.cnt-fl .navigation-bar .nav-block-2{
+	width:50%;
+	float:left;
+	
+}
+.cnt-fl .navigation-bar  .nav-block-2 ul li{
+	text-decoration: none;
+	list-style: none;
+	float:left;
+}
+
+.section-1{
+	width:80%;
+	float:left;
+	padding:3em;
+}
+
+.section-1 .file-section{
+	width:100%;
+	float:left;
+
+	border-radius: 5px;
+	-webkit-box-shadow: -1px 0.5px 1px 0px rgba(0,0,0,0.55);
+-moz-box-shadow: -1px 0.5px 1px 0px rgba(0,0,0,0.55);
+box-shadow: -1px 0.5px 1px 0px rgba(0,0,0,0.55);
+	border:1px solid grey;
+}
+
+.file-section a{
+	color:black;
+}
+.file-section .top-section{
+	background: #293a4a;
+	color:white;
+	border-radius:5px;
+	border-bottom-left-radius:0px;
+	border-bottom-right-radius: 0px;
+	
+}
+.top-section p{
+	padding:8px;
+
+}
+
+.file-content{
+	width:100%;
+	float:left;
+}
+.file-content .file-content-section{
+	width:25%;
+	padding-left:1em;
+	margin-bottom:10px;
+	float:left;
+}
+.file-content-section p{
+	float:left;
+	margin-left:5px;
+	font-size:18px;
+}
+.section-2{
+	width:20%;
+	float:left;
+	margin-left:-14px;
+	padding-top:3em;
+	
+}
+.section-2 .general-info{
+	width:100%;
+	margin:auto;
+
+	border-radius: 5px;
+	border:1px solid black;
+	border-bottom:0px;
+
+}
+
+.general-info .section-2-heading{
+	background:#293a4a;
+	border-radius:5px;
+	border-bottom-left-radius:0px;
+	border-bottom-right-radius: 0px;
+	
+}
+
+.section-2-heading p{
+	color:white;
+	padding:8px;	
+}
+
+.current-user .user-name{
+	font-weight: bold;
+	margin-bottom:2px;
+	padding-left:9px;
+}
+
+.current-user .user-info{
+	padding-left:9px;
+	margin-bottom:0px;
+}
+
+.current-user {
+	width:100%;
+	border-bottom:1px solid grey;	
+	padding-bottom:6px;
+}
+
+.top-current-user{
+	margin-top:-10px;
+}

@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Backup LiteSpeed</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="css/backup.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+</head>
+<body>
+   <div class="container-fluid ctn-fl">
+            <div class="col-md-12">
+                <h2>LiteSpeed</h2>
+            </div>
+   </div> 
+   <div class="container-fluid">
+       <div class="backup-center">
+           <div class="backup-heading">
+                <img class="float-left" src="https://img.icons8.com/dusk/64/000000/database-backup.png">
+                <h2>Backup</h2>
+           </div>
+           <div class="backup-para">
+               <p>Download a zipped copy of your entire site or a part of your site that you can save to your computer. When you backup your website, you have an extra copy of your information in case something happens to your host.</p>
+           </div>
+           <div class="account-backup">
+               <h2>Full Backup</h2>
+               <p>A full backup creates an archive of all of your website’s files and configuration. You can use this file to move your account to another server or to keep a local copy of your files.</p>
+                <input class="btn btn-primary" type="submit" value="Download a Full Account Backup">
+            </div>
+            <div class="partial-backup">
+                <div class="partial-heading">
+                    <h2>Partial Backups</h2>
+                </div>
+                <div class="section-1">
+                    <div class="home-directory">
+                        <h4>Download a Home Directory Backup</h4>
+                        <input type="submit" class="btn btn-primary" value="Home Directory">
+                    </div>
+                    <div class="mysql-database">
+                        <h4>Download a MySQL Database Backup</h4>
+                        <p>Databases</p>
+                    </div>
+                    
+                </div>
+                <div class="section-2">
+                    <div class="upload-directory">
+                        <h4>Restore a Home Directory Backup</h4>
+                        <input class="form-control-file" type="file">
+                        <input type="submit"class="btn btn-primary" value="Upload">
+                    </div>
+                    <div class="upload-directory mysql-upload">
+                        <h4>Restore a MySQL Database Backup</h4>
+                        <input class="form-control-file" type="file">
+                        <input type="submit"class="btn btn-primary" value="Upload">
+                    </div>
+                </div>
+            </div>
+       </div>
+   </div>
+
+</body>
+</html>

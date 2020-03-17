@@ -1,0 +1,66 @@
+.ctn-fl {
+    background: #293a4a;
+    color: white;
+}
+
+.ctn-fl h2{
+    padding: 8px;
+}
+
+.redirects-center{
+    width:90%;
+    margin: auto;
+
+}
+
+.redirects-center .redirects-heading {
+    width: 100%;
+    float: left;
+    border-bottom: 1px solid #eee;
+    padding-bottom: 9px;
+}
+
+.redirects-center .redirects-heading h2{
+    float: left;
+    margin-top: 11px;
+    margin-left: 8px;
+}
+.redirects-center .redirects-para{
+    float: left;
+    margin-top: 14px;
+    border-bottom: 1px solid #eee;
+}
+
+.redirects-center .add-redirects{
+    float: left;
+    margin-top:1em;
+}
+
+.redirects-center .add-redirects h2{
+    margin: 0px;;
+}
+
+.add-redirects p.https-www{
+    margin: 0px;
+}
+.add-redirects label{
+    width: 100%;
+    margin-top: 12px;
+    margin-bottom:0px;
+
+}
+
+.add-redirects input[type="submit"]{
+    background: #3989cf;
+    margin-top:12px;
+    margin-bottom: 12px;;
+}
+.current-redirects{
+    width:100%;
+    float: left;
+    margin-top:2px;
+}
+.current-redirects .head-dark{
+    background-color:#293a4a;
+    color:white;
+}

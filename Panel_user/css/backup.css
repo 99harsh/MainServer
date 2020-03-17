@@ -1,0 +1,73 @@
+.ctn-fl{   
+    background: #293a4a;
+    color: white;
+}
+
+.ctn-fl h2{
+    padding:8px;
+}
+
+.backup-center{
+    width: 90%;
+    margin:auto;
+}
+.backup-heading{
+    width:100%;
+    float:left;
+    border-bottom: 1px solid #eee;
+    padding-bottom: 9px;
+}
+.backup-center .backup-heading h2{
+    float: left;
+    margin-top: 11px;
+    margin-left: 8px;
+}
+.backup-center .backup-para{
+    float: left;
+    margin-top: 14px;
+    border-bottom: 1px solid #eee;
+}
+
+.backup-center .account-backup{
+    width:100%;
+    float: left;
+    margin-top:1em;
+}
+
+.account-backup input,
+.partial-backup input[type="submit"]{
+    background: #3989cf;
+}
+.backup-center .partial-backup{
+    width:100%;
+    float: left;
+    margin-top: 1.5em;
+}
+.partial-backup h4{
+    font-weight: lighter;
+}
+.partial-backup .section-1{
+    width: 50%;
+    float: left;
+    padding-top: 8px;
+}
+.partial-backup .section-2{
+    width:50%;
+    float: left;
+    padding-top: 8px;
+}
+.partial-backup .section-2 .btn{
+    margin-top:12px;
+}
+.section-1 .mysql-database{
+    float: left;
+    padding-top:1.5em;
+}
+.mysql-database p{
+    font-weight: bold;
+    border-bottom:1.5px solid;
+    padding-bottom:5px;
+}
+.section-2 .mysql-upload{
+    padding-top:1.5em;
+}

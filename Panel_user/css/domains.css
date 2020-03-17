@@ -1,0 +1,41 @@
+.ctn-fl{
+    background: #293a4a;
+    color: white;
+}
+
+.ctn-fl h2{
+    padding:8px ;
+}
+
+.domains-center{
+    width:90%;
+    margin:auto;
+}
+.domains-center .domains-heading{
+    width:100%;
+    float:left;
+    border-bottom: 1px solid #eee;
+    padding-bottom: 9px;
+}
+
+.domains-center .domains-heading h2{
+    float: left;
+    margin-top: 11px;
+    margin-left: 8px;
+}
+
+.domains-center .domains-para{
+    float: left;
+    margin-top: 14px;
+    border-bottom: 1px solid #eee;
+}
+
+.domains-center .domain-table{
+    width: 100%;
+    float:left;
+    margin-top:14px;
+}
+.domain-table .head-dark{
+    background: #293a4a;
+    color:white;
+}

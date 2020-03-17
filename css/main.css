@@ -1,0 +1,107 @@
+.ctn-fl{
+    background: #293a4a;
+    color: white;
+}
+
+.ctn-fl h2{
+    padding: 8px;
+}
+
+.ctn-fl .nav-top ul li{
+    list-style: none;
+    float: left;
+    padding: 18px 20px;
+}
+.nav-top ul li a{
+    font-size: 17px;
+    color: white;
+}
+.nav-top-client a,i{
+    font-size: 17px;
+    color: white;
+    padding-top: 22px;
+}
+
+.main-body{
+    width:100%;
+    float: left;
+    margin-bottom: 4em;
+}
+
+.main-body .top-section{
+    width: 100%;
+    padding:25px;
+    border-bottom:1px solid #eee;
+    
+}
+
+.top-section h2{
+    margin-top: 12px;
+    margin-left: 5px;
+
+}
+.card-section{
+    width:100%;
+    float: left;
+    margin-bottom: 15px;
+}
+.card-section .center-section{
+    width:80%;
+    margin: auto;
+   
+
+}
+.center-section h2{
+    color: slategrey;
+    text-align: center;
+    margin-top: 15px;
+    
+}
+.card-section .card-1{
+    width: 30%;
+    background-color: #4b6176;
+    color: white;
+    float: left;
+    margin-left:25px;
+    margin-top: 2em;
+    border-radius: 5px;
+    text-align: center;
+}
+.card-1 p.card-heading{
+    margin-top: 15px;;
+}
+.card-1 p.rate-card{
+    font-size:8vh;
+}
+.card-1 .button-getstarted{
+    background-color: #c4ecff;
+    width:80%;
+    font-size: 20px;
+}
+
+.card-1 .check-box{
+    color: #8cc1c1;
+}
+.specs-all{
+    margin-top: 15px;;
+    border-top: 2px solid white;
+    margin-bottom:15px;
+}
+.specs-all .specs{
+    margin:0px;
+    padding: 0px;;
+}
+.footer{
+    width: 100%;
+    float: left;
+    background-color: #293a4a;
+}
+.footer p{
+    text-align: center;
+    color: white;
+}
+.footer i{
+    color: red;
+}
+
+

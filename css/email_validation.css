@@ -1,0 +1,12 @@
+.top-section-otp{
+    width:100%;
+    border-bottom:2px solid #eee;
+}
+.top-section-otp h2{
+    margin-top:20px;
+    margin-left:15px;
+    float: left;
+}
+.top-section-content .custom-button{
+    background-color: #c4ecff;
+}

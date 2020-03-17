@@ -1,0 +1,98 @@
+*{
+    padding:0px;
+    margin: 0px;
+}
+
+body{
+    background-color: #f0eff0;
+}
+
+.outer-box-main{
+    border-radius: 12px;;
+    position: absolute;
+    top:30%;
+    left: 50%;
+    transform: translate(-50%, -20%);
+    background-color: white;
+    padding-bottom:1em;
+}
+
+.outer-box-main .logo-main{
+    margin:20px 0;
+}
+.outer-box-main .logo-main img{
+
+    width:60%;
+    
+}
+
+.form-section {
+    
+    width:50%;
+    transform: translate(50%,-20%);
+    padding-top:30px;
+}
+
+.form-section .input-main{
+    width:100%;
+    position: relative;
+    
+}
+
+.form-section .input-main input{
+    width:100%;
+    margin:20px 0px;
+    box-sizing: border-box;
+    box-shadow: none;
+    border:none;
+    border-bottom:2px solid grey;
+    outline:none;
+    transition: .6s;
+}
+.password_input_box{
+    margin-top:1px;
+}
+.form-section .input-main label{
+  
+    position: absolute;
+    top:18px;
+    left: 0;
+    transition: .6s;
+  
+    pointer-events: none;
+}
+.input-main input:focus ~ label,
+.input-main input:valid ~ label
+{
+    top:-4px; 
+}
+.input-main input:focus{
+    border-bottom:2px solid rgb(16, 30, 90);
+}
+
+.input-main #password-show, #password-hide{
+    position: absolute;
+    top:22px;
+    right: 1px;
+    cursor:pointer;
+    display: none;  
+    transition:.5s; 
+}
+.input-main .password_box:focus ~ #password-show{
+    display: block;
+}
+
+.input-main input[type="submit"]{
+    border:none;
+    width:50%;
+    margin:auto;
+    transform:translate(-50%,-50%);
+    position: absolute;
+    left:50%;
+    top:1em;
+}
+
+.input-main #forgot-pass{
+    margin-top:0.5em;
+    padding:0px;
+}

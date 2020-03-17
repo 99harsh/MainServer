@@ -1,0 +1,137 @@
+.ctn-fl{
+    background-color:#293a4a;
+    color: #ffffff;
+    
+}
+
+.ctn-fl h2{
+    padding:8px;
+}
+
+.main-section{
+    width: 90%;
+    margin:auto;
+    margin-top:9px;
+}
+
+.main-section .web-disk-head{
+    width:100%;
+    float: left;
+    
+    padding-bottom: 9px;
+    border-bottom: 1px solid #eee;
+}
+.web-disk-head h2{
+    float: left;
+    margin-top:11px;
+    margin-left: 8px;
+}
+
+.web-disk-content{
+    float: left;
+    margin-top:14px;
+    border-bottom:1px solid #eee;
+}
+
+
+.web-disk-main-account{
+    width:100%;
+    float:left;
+    margin-top: 1em;
+    
+}
+
+.web-disk-main-account .web-disk-main-account-heading{
+    width:100%;
+    border-bottom: 1px solid #eee;
+}
+.web-disk-main-account .head-dark{
+    background: #293a4a;
+    color: white;
+}
+.create-additional{
+    width:100%;
+    float: left;
+} 
+.create-additional .section-1{
+    width:60%;
+    float: left;
+   
+}
+.create-additional .create-now{
+    width:80%;
+    margin: auto;
+    margin-top:20px;
+    
+}
+.create-now .inp_box_div{
+    width: 100%;
+    float: left;
+    margin-top:20px;
+    margin-bottom: 20px;
+}
+.create-additional .create-now .inp_box{
+    width:70%;
+    outline: none;
+    border:0px;
+    border-bottom:2px solid #293a4a;
+}
+
+
+.create-now .button_create{
+    background: #293a4a;
+    border:none;
+    color: white;
+    padding:5px;
+    margin:0px;
+    border-radius: 5px;;
+}
+
+.create-now label.directories-label{
+    width: 100%;;
+}
+.create-additional .section-2{
+
+    width: 40%;
+    float: left;
+}
+
+.section-2 .user-info{
+    width:80%;
+    margin: auto;
+    border:1px solid grey;
+}
+
+.user-info .user-info-heading{
+    width: 100%;
+   
+    background:#293a4a;
+    color: white;
+    
+}
+
+
+.user-info-heading p{
+    padding:8px;
+}
+.user-content{
+    border-bottom:1px solid grey;
+}
+.user-content p{
+    margin:0px;
+}
+
+.user-content .dark-content{
+    
+    font-weight: bold;
+    padding: 8px;;
+    padding-bottom:3px;
+}
+.user-content .light-content{
+   padding: 8px;;
+   padding-top:2px;
+}
+
+.section-2 .first-user-content{
+    margin-top: -15px;
+}

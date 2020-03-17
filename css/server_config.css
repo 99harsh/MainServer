@@ -1,0 +1,107 @@
+.ctn-fl{
+    background: #293a4a;
+    color: white;
+}
+
+.ctn-fl h2{
+    padding: 8px;
+}
+
+.ctn-fl .nav-top ul li{
+    list-style: none;
+    float: left;
+    padding: 18px 20px;
+}
+.nav-top ul li a{
+    font-size: 17px;
+    color: white;
+}
+.nav-top-client a,i{
+    font-size: 17px;
+    color: white;
+    padding-top: 22px;
+}
+
+.main-body{
+    width:100%;
+    float: left;
+    margin-bottom: 4em;
+}
+
+.main-body .top-section{
+    width: 100%;
+    padding:25px;
+    border-bottom:1px solid #eee;
+    
+}
+
+.top-section h2{
+    margin-top: 12px;
+    margin-left: 5px;
+
+}
+.main-body .center-section{
+    width: 80%;
+    margin:auto;
+}
+.center-section .small-details{
+    margin-top: 18px;;
+}
+.small-details p.subscription{
+    font-weight: bold;;
+    margin: 0px;
+}
+.center-section .model{
+    font-weight: bold;
+    margin:0px;
+    padding-top: 5px;
+}
+.center-section .center-center-specs{
+    width:90%;
+    margin:auto;
+    margin-top: 25px;;
+    background: #4b6176;
+    border-radius: 5px;
+    padding:2em;
+    color: white;
+}
+
+.center-center-specs li{
+    display: -webkit-box;
+    display: flex;
+}
+.center-center-specs span{
+    font-weight: bold;
+    width: 200px;
+    flex-shrink: 0;
+    margin-left:15px;
+}
+
+.center-center-specs .total-price{
+    border-top: 1px solid grey ;
+    font-size:24px;
+    margin-left: 15px;
+}
+
+.total-price .button-checkout{
+    background: #c4ecff;
+}
+
+
+
+
+
+
+.footer{
+    width: 100%;
+    float: left;
+    background-color: #293a4a;
+}
+.footer p{
+    text-align: center;
+    color: white;
+}
+.footer i{
+    color: red;
+}
+

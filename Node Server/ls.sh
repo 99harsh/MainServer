@@ -1,0 +1,1 @@
+rm -r index.php
